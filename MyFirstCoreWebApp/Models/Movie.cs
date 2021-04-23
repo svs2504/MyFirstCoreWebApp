@@ -9,6 +9,7 @@ namespace MyFirstCoreWebApp.Models
     public class Movie
     {
         public int ID { get; set; }
+        //title of movie
         public string Title { get; set; }
 
         [DataType(DataType.Date)]
